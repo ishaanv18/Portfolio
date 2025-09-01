@@ -470,7 +470,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 error={errors.name}
-                placeholder="John Doe"
+                placeholder="Ishaan Verma"
               />
               {errors.name && <ErrorMessage>{errors.name}</ErrorMessage>}
             </FormGroup>
@@ -484,7 +484,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 error={errors.email}
-                placeholder="john@example.com"
+                placeholder="ishaan@example.com"
               />
               {errors.email && <ErrorMessage>{errors.email}</ErrorMessage>}
             </FormGroup>
@@ -566,7 +566,7 @@ const Contact = () => {
                 </ContactIconWrapper>
                 <ContactInfoContent>
                   <ContactInfoLabel>Location</ContactInfoLabel>
-                  <ContactInfoValue>Bhopal, Madhya Pradesh, India</ContactInfoValue>
+                  <ContactInfoValue>Delhi, India</ContactInfoValue>
                 </ContactInfoContent>
               </ContactInfoItem>
             </ContactInfoList>

@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { FiArrowRight, FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { FiArrowRight, FiGithub, FiLinkedin, FiMail, FiDownload } from 'react-icons/fi';
 import styled from 'styled-components';
 
 const HeroSection = styled.section`
@@ -416,6 +416,9 @@ const Home = () => {
               document.getElementById('projects').scrollIntoView({ behavior: 'smooth' });
             }}>
               View Projects
+            </SecondaryButton>
+            <SecondaryButton href="/Ishaan_Verma_Resume.pdf" download="Ishaan_Verma_Resume.pdf" target="_blank" rel="noopener noreferrer">
+              Resume <FiDownload />
             </SecondaryButton>
           </ButtonContainer>
           

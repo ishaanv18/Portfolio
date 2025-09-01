@@ -11,9 +11,16 @@ const NavbarContainer = styled.nav`
   z-index: 100;
   padding: 1rem 0;
   backdrop-filter: blur(10px);
-  background: ${props => props.$darkMode ? 'rgba(17, 24, 39, 0.8)' : 'rgba(249, 250, 251, 0.8)'};
+  background: ${props => props.$darkMode ? 'rgba(17, 24, 39, 0.95)' : 'rgba(249, 250, 251, 0.95)'};
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
+  
+  @media (max-width: 768px) {
+    background: ${props => props.$darkMode ? '#111827' : '#f9fafb'};
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  }
 `;
 
 const NavContent = styled.div`
