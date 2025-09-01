@@ -398,7 +398,7 @@ const About = () => {
           
           <AboutImage>
             <ProfileImage 
-              src="/src/assets/images/Ishaan image.jpg" 
+              src="/Ishaan-image.jpg" 
               alt="Ishaan Verma"
               initial={{ opacity: 0, scale: 0.8 }}
               animate={{ opacity: 1, scale: 1 }}

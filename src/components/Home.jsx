@@ -474,7 +474,7 @@ const Home = () => {
             whileHover={{ scale: 1.03 }}
             style={{ position: 'relative', zIndex: 10 }}
           >
-            <ProfileImage src="./src/assets/images/Ishaan image.jpg" alt="Ishaan Verma" />
+            <ProfileImage src="/Ishaan-image.jpg" alt="Ishaan Verma" />
           </motion.div>
         </HeroImageContainer>
       </HeroContainer>
